@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A2FA5D21B057C6F009CECC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FA5D11B057C6F009CECC2 /* main.m */; };
+		5A2FA5D51B057C6F009CECC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FA5D41B057C6F009CECC2 /* AppDelegate.m */; };
+		5A2FA5D81B057C6F009CECC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FA5D71B057C6F009CECC2 /* ViewController.m */; };
+		5A2FA5DB1B057C6F009CECC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2FA5D91B057C6F009CECC2 /* Main.storyboard */; };
+		5A2FA5DD1B057C6F009CECC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2FA5DC1B057C6F009CECC2 /* Images.xcassets */; };
+		5A2FA5E01B057C6F009CECC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2FA5DE1B057C6F009CECC2 /* LaunchScreen.xib */; };
+		5A2FA5EC1B057C70009CECC2 /* TapGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FA5EB1B057C70009CECC2 /* TapGameTests.m */; };
+		5A2FA5F71B057DC5009CECC2 /* TapGameSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FA5F61B057DC5009CECC2 /* TapGameSession.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A2FA5E61B057C70009CECC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A2FA5C41B057C6F009CECC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2FA5CB1B057C6F009CECC2;
+			remoteInfo = TapGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A2FA5CC1B057C6F009CECC2 /* TapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2FA5D01B057C6F009CECC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2FA5D11B057C6F009CECC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A2FA5D31B057C6F009CECC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A2FA5D41B057C6F009CECC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A2FA5D61B057C6F009CECC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A2FA5D71B057C6F009CECC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A2FA5DA1B057C6F009CECC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A2FA5DC1B057C6F009CECC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A2FA5DF1B057C6F009CECC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A2FA5E51B057C70009CECC2 /* TapGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2FA5EA1B057C70009CECC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2FA5EB1B057C70009CECC2 /* TapGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapGameTests.m; sourceTree = "<group>"; };
+		5A2FA5F51B057DC5009CECC2 /* TapGameSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGameSession.h; sourceTree = "<group>"; };
+		5A2FA5F61B057DC5009CECC2 /* TapGameSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapGameSession.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A2FA5C91B057C6F009CECC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2FA5E21B057C70009CECC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A2FA5C31B057C6F009CECC2 = {
+			isa = PBXGroup;
+			children = (
+				5A2FA5CE1B057C6F009CECC2 /* TapGame */,
+				5A2FA5E81B057C70009CECC2 /* TapGameTests */,
+				5A2FA5CD1B057C6F009CECC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A2FA5CD1B057C6F009CECC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A2FA5CC1B057C6F009CECC2 /* TapGame.app */,
+				5A2FA5E51B057C70009CECC2 /* TapGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A2FA5CE1B057C6F009CECC2 /* TapGame */ = {
+			isa = PBXGroup;
+			children = (
+				5A2FA5F51B057DC5009CECC2 /* TapGameSession.h */,
+				5A2FA5F61B057DC5009CECC2 /* TapGameSession.m */,
+				5A2FA5D61B057C6F009CECC2 /* ViewController.h */,
+				5A2FA5D71B057C6F009CECC2 /* ViewController.m */,
+				5A2FA5D91B057C6F009CECC2 /* Main.storyboard */,
+				5A2FA5DE1B057C6F009CECC2 /* LaunchScreen.xib */,
+				5A2FA5DC1B057C6F009CECC2 /* Images.xcassets */,
+				5A2FA5D31B057C6F009CECC2 /* AppDelegate.h */,
+				5A2FA5D41B057C6F009CECC2 /* AppDelegate.m */,
+				5A2FA5CF1B057C6F009CECC2 /* Supporting Files */,
+			);
+			path = TapGame;
+			sourceTree = "<group>";
+		};
+		5A2FA5CF1B057C6F009CECC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A2FA5D01B057C6F009CECC2 /* Info.plist */,
+				5A2FA5D11B057C6F009CECC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A2FA5E81B057C70009CECC2 /* TapGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A2FA5EB1B057C70009CECC2 /* TapGameTests.m */,
+				5A2FA5E91B057C70009CECC2 /* Supporting Files */,
+			);
+			path = TapGameTests;
+			sourceTree = "<group>";
+		};
+		5A2FA5E91B057C70009CECC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A2FA5EA1B057C70009CECC2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A2FA5CB1B057C6F009CECC2 /* TapGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2FA5EF1B057C70009CECC2 /* Build configuration list for PBXNativeTarget "TapGame" */;
+			buildPhases = (
+				5A2FA5C81B057C6F009CECC2 /* Sources */,
+				5A2FA5C91B057C6F009CECC2 /* Frameworks */,
+				5A2FA5CA1B057C6F009CECC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapGame;
+			productName = TapGame;
+			productReference = 5A2FA5CC1B057C6F009CECC2 /* TapGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A2FA5E41B057C70009CECC2 /* TapGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2FA5F21B057C70009CECC2 /* Build configuration list for PBXNativeTarget "TapGameTests" */;
+			buildPhases = (
+				5A2FA5E11B057C70009CECC2 /* Sources */,
+				5A2FA5E21B057C70009CECC2 /* Frameworks */,
+				5A2FA5E31B057C70009CECC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2FA5E71B057C70009CECC2 /* PBXTargetDependency */,
+			);
+			name = TapGameTests;
+			productName = TapGameTests;
+			productReference = 5A2FA5E51B057C70009CECC2 /* TapGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A2FA5C41B057C6F009CECC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = raredynamics;
+				TargetAttributes = {
+					5A2FA5CB1B057C6F009CECC2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					5A2FA5E41B057C70009CECC2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5A2FA5CB1B057C6F009CECC2;
+					};
+				};
+			};
+			buildConfigurationList = 5A2FA5C71B057C6F009CECC2 /* Build configuration list for PBXProject "TapGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A2FA5C31B057C6F009CECC2;
+			productRefGroup = 5A2FA5CD1B057C6F009CECC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A2FA5CB1B057C6F009CECC2 /* TapGame */,
+				5A2FA5E41B057C70009CECC2 /* TapGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A2FA5CA1B057C6F009CECC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2FA5DB1B057C6F009CECC2 /* Main.storyboard in Resources */,
+				5A2FA5E01B057C6F009CECC2 /* LaunchScreen.xib in Resources */,
+				5A2FA5DD1B057C6F009CECC2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2FA5E31B057C70009CECC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A2FA5C81B057C6F009CECC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2FA5D81B057C6F009CECC2 /* ViewController.m in Sources */,
+				5A2FA5D51B057C6F009CECC2 /* AppDelegate.m in Sources */,
+				5A2FA5F71B057DC5009CECC2 /* TapGameSession.m in Sources */,
+				5A2FA5D21B057C6F009CECC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2FA5E11B057C70009CECC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2FA5EC1B057C70009CECC2 /* TapGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A2FA5E71B057C70009CECC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A2FA5CB1B057C6F009CECC2 /* TapGame */;
+			targetProxy = 5A2FA5E61B057C70009CECC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A2FA5D91B057C6F009CECC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2FA5DA1B057C6F009CECC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A2FA5DE1B057C6F009CECC2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2FA5DF1B057C6F009CECC2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A2FA5ED1B057C70009CECC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A2FA5EE1B057C70009CECC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A2FA5F01B057C70009CECC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A2FA5F11B057C70009CECC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A2FA5F31B057C70009CECC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapGame.app/TapGame";
+			};
+			name = Debug;
+		};
+		5A2FA5F41B057C70009CECC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapGame.app/TapGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A2FA5C71B057C6F009CECC2 /* Build configuration list for PBXProject "TapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2FA5ED1B057C70009CECC2 /* Debug */,
+				5A2FA5EE1B057C70009CECC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2FA5EF1B057C70009CECC2 /* Build configuration list for PBXNativeTarget "TapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2FA5F01B057C70009CECC2 /* Debug */,
+				5A2FA5F11B057C70009CECC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A2FA5F21B057C70009CECC2 /* Build configuration list for PBXNativeTarget "TapGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2FA5F31B057C70009CECC2 /* Debug */,
+				5A2FA5F41B057C70009CECC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A2FA5C41B057C6F009CECC2 /* Project object */;
+}
